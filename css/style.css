@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(37, 78, 87, 0.8);
+    position:fixed;
+    top:0px;
+    z-index:10;
+  }
+
+  .header-left {
+    float: left;
+  }
+
+  .container {
+    width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .container p{
+    font-size:20px;
+  }  
+    
+  .main{
+    padding: 300px 200px ;
+    background-image:url(../img/urban.png);
+    background-color:url(.);
+    background-size: cover;
+    color: rgb(238, 231, 231);
+    text-align: center;
+  }
+  
+  .main h1 {
+    opacity: 0.8;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  
+  .main h2 {
+    opacity: 0.8;
+  }
+
+.abouts img{
+  float:right;
+  height: 300px;
+  width: 300px;
+  padding-right:50px;
+  
+}
+  .abouts h4{
+    font-size: 24px;
+    color:#5f5d60;
+    padding-left:30px;
+  }
+  .abouts p{
+    font-size: 18px;
+    color:#5f5d60;
+    padding-left:30px;
+    
+  }
+  .lesson-wrapper {
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 0px;
+    padding-bottom:5px;
+    color: #5f5d60;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+    font-size: 50px;
+    padding: top 10px;0px;
+    padding-bottom:0px;
+    text-align: center;
+  }
+  
+.work{
+  float: left;
+  width: 33%;
+}
+.work-img{
+  position: relative;
+}
+.work-img p {
+  position: absolute;
+  font-size:30px;
+  top: 80px;
+  width: 100%;
+  color: white;
+}
+.work-img img{
+  width: 350px;
+  height: 250px;
+}
+.work-txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+  padding-bottom:100px;
+}
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  .lesson-icon {
+    position: relative;
+  }
+  .lesson-icon p {
+    position: absolute;
+    font-size:20px;
+    top: 100px;
+    width: 100%;
+    color: white;
+  }
+  .lesson-icon img{
+    width: 250px;
+    height: 250px;
+  }
+  
+  .lesson-txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 10px;
+    color: rgb(100, 100, 100);
+    padding-bottom:100px;
+  }
+  
+  .heading h4 {
+    font-weight: normal;
+    font-size: 10px;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #cacccb;
+    box-shadow: 0 7px #9fa09f;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .message-wrapper a{
+    color:#5f5d60
+  }
+
+
+  .heading h4 {
+    padding-top:100px;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  footer{
+    color: #f4f2f5;
+    font-size:15px;
+    background-color: rgba(148, 168, 172, 0.8);
+  }
